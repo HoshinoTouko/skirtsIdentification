@@ -1,4 +1,5 @@
 # coding=utf-8
+# https://segmentfault.com/a/1190000004467183
 import datetime
 from PIL import Image
 import numpy as np

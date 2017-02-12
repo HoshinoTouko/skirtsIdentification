@@ -52,7 +52,7 @@ def aHashCompare(a, b):
     # cv2.imshow("test", merged)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-    print "Compare " + str(a) + " to " + str(b)
+    print "(aHash)Compare " + str(a) + " to " + str(b)
     print "R: %.2f G: %.2f B: %.2f" % (
         compareMatrixOffset(
             getMatrixOffset(r1),

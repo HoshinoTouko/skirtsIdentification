@@ -55,7 +55,7 @@ def CVsplit2RGB(imgPath):
 def quickCompareCV(a, b):
     b1, g1, r1 = CVsplit2RGB("data/" + str(a) + ".jpg")
     b2, g2, r2 = CVsplit2RGB("data/" + str(b) + ".jpg")
-    print "Compare " + str(a) + " to " + str(b)
+    print "(histogram)Compare " + str(a) + " to " + str(b)
     print ("R: %.2f, G: %.2f, B: %.2f" % (
         compareHist(r1.flatten(), r2.flatten()),
         compareHist(g1.flatten(), g2.flatten()),
